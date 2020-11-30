@@ -1,0 +1,37 @@
+# Duplicate Number Delicated List:
+
+userlist = int (input("Enter List length : "))
+list1 = []
+
+for i in range(0, userlist):
+    usrval =int(input())
+    list1.append(usrval)
+print(list1)
+
+newlist = []
+
+
+for i in list1:
+    if i not in newlist:
+        newlist.append(i)
+print ("Old List :" , list1)        
+print ("New List :" , newlist)
+
+
+# Duplicate string Deleted List:
+userlist = int (input("Enter List length : "))
+list1 = []
+
+for i in range(0, userlist):
+    usrval = [input() ,int(input())]
+    list1.append(usrval)
+print(list1)
+
+newlist = []
+
+
+for i in list1:
+    if i not in newlist:
+        newlist.append(i)
+print ("Old List :" , list1)        
+print ("New List :" , newlist)
